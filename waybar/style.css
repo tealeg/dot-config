@@ -1,42 +1,43 @@
 * {
     border:        none;
     border-radius: 0;
-    font-family:   "IBM Plex Mono";
-    font-size:     15px;
+    font-family:   "Monaco";
+    font-size:     12px;
     box-shadow:    none;
     text-shadow:   none;
     transition-duration: 0s;
 }
 
 window#waybar {
-    color: rgba(53, 185, 171, 1);
-    background-color: rgba(23, 63, 79, 0.4);
-    border-bottom: 2px solid rgba(53, 185, 171, 0.4);
+    color: #000000;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
 }
 
 window#waybar.solo {
-    color: rgba(53, 185, 171, 1);
+    color: rgba(21, 21, 21, 1);
 }
 
 #workspaces {
     margin: 0 5px;
+    color: #cecece;
 }
 
 #workspaces button {
     padding: 0 5px;
-    color: rgba(53, 185, 171, 1);
 }
 
 #workspaces button.focused {
-    color: rgba(115, 186, 37, 1);
+    color: #ffffff;
+    background-color: #cecece;
 }
 
 #workspaces button.visible {
-    color: rgba(115, 186, 37, 1);
+    color: rgba(69, 69, 69, 1);
 }
 
 #workspaces button.urgent {
-    color: rgba(33, 164, 223, 1);
+    color: rgba(255, 255, 0, 1);
 }
 
 #mode, 
@@ -58,14 +59,14 @@ window#waybar.solo {
 }
 
 #battery.warning {
-   color: rgba(255, 210, 4, 1);
+   color: rgba(255, 255, 0, 1);
 }
 
 #battery.critical {
-    color: rgba(238, 46, 36, 1);
+    color: rgba(255, 0, 0, 1);
 }
 
 #battery.charging {
-    color: rgba(217, 216, 216, 1);
+    color: rgba(211, 211, 211, 1);
 }
 
