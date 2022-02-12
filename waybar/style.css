@@ -1,7 +1,7 @@
 * {
     border:        none;
     border-radius: 0;
-    font-family:   "Monaco";
+    font-family:   "Victor Mono";
     font-size:     12px;
     box-shadow:    none;
     text-shadow:   none;
@@ -9,18 +9,18 @@
 }
 
 window#waybar {
-    color: #000000;
-    background-color: #ffffff;
-    border-bottom: 1px solid #cecece;
+    color: #400040;
+    background-color: #dda0dd;
+    border-bottom: 1px solid #9932cc;
 }
 
 window#waybar.solo {
-    color: rgba(21, 21, 21, 1);
+    color: #400040; /* rgba(21, 21, 21, 1); */
 }
 
 #workspaces {
     margin: 0 5px;
-    color: #cecece;
+    color: #400040;
 }
 
 #workspaces button {
@@ -28,25 +28,25 @@ window#waybar.solo {
 }
 
 #workspaces button.focused {
-    color: #ffffff;
-    background-color: #cecece;
+    color: #dda0dd;
+    background-color: #9932cc;
 }
 
 #workspaces button.visible {
-    color: rgba(69, 69, 69, 1);
+    color: #400040; /* rgba(69, 69, 69, 1); */
 }
 
 #workspaces button.urgent {
     color: rgba(255, 255, 0, 1);
 }
 
-#mode, 
-#battery, 
-#cpu, 
-#memory, 
-#network, 
-#pulseaudio, 
-#idle_inhibitor, 
+#mode,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#idle_inhibitor,
 #temperature,
 #custom-layout,
 #backlight {
